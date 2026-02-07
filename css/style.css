@@ -28,17 +28,23 @@
 }
 
 header {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  font-weight: 500;
+  background-color: var(--background-tertiary-color);
 }
 
-ul {
-  display: flex;
-  flex-direction: row;
-}
+@media screen and (max-width: px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-weight: 500;
+  }
 
-h1 {
-  font-family: "Montserrat";
+  ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  h1 {
+    font-family: "Montserrat";
+  }
 }
