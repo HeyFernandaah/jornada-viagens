@@ -1,22 +1,55 @@
-header {
-  background-color: var(--background-tertiary-color);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 38px 48px;
-}
-
+/* 
 .logo {
   display: inline-block;
   width: 68px;
   height: 64px;
+} */
+
+header {
+  background-color: var(--background-tertiary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 38px 48px;
+  position: relative;
 }
 
 .navigation-menu {
   margin-top: 24px;
 }
 
+#menu-toggle {
+  display: none;
+}
+
 nav {
   display: none;
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  padding: 16px;
+  background-color: var(--background-tertiary-color);
+}
+
+#menu-toggle:checked ~ nav {
+  display: block;
+}
+
+.list-links {
+  list-style: none;
+  font-family: "Montserrat";
+}
+
+.list-links li {
+  margin: 16px 0;
+}
+
+.list-links li a {
+  color: var(--text-secondary-color);
+  text-decoration: none;
+}
+
+.menu-icon {
+  cursor: pointer;
 }

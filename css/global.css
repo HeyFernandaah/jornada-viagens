@@ -27,24 +27,6 @@
   box-sizing: border-box;
 }
 
-header {
-  background-color: var(--background-tertiary-color);
-}
-
-@media screen and (max-width: px) {
-  header {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    font-weight: 500;
-  }
-
-  ul {
-    display: flex;
-    flex-direction: row;
-  }
-
-  h1 {
-    font-family: "Montserrat";
-  }
+body {
+  font-family: "Montserrat";
 }
