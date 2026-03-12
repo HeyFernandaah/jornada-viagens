@@ -96,4 +96,60 @@
 }
 
 @media screen and (min-width: 1024px) {
+  /* .popular-destinations { */
+  .destination-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+
+  .item {
+    width: 480px;
+  }
+
+  .item h4,
+  item p {
+    width: 430px;
+  }
+
+  .item p {
+    width: 430px;
+  }
+
+  .img-osaka,
+  .img-tokyo {
+    width: 430px;
+  }
+
+  .item footer {
+    width: 430px;
+  }
+}
+
+@media screen and (min-width: 1310px) {
+  .item {
+    width: 588px;
+  }
+
+  .item h4,
+  item p {
+    width: 580px;
+  }
+
+  .item p {
+    width: 580px;
+  }
+
+  .img-osaka,
+  .img-tokyo {
+    width: 580px;
+  }
+
+  .item footer {
+    width: 580px;
+  }
 }
