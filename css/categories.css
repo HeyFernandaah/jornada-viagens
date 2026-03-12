@@ -19,6 +19,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .categories {
+    width: 100%;
+  }
+
   .categories-cards {
     display: flex;
     flex-direction: row;
@@ -31,6 +35,7 @@
 
   .categories h2 {
     width: 100%;
+    display: inline-block;
   }
 }
 
@@ -52,7 +57,7 @@
 
 @media screen and (min-width: 1310px) {
   .categories-cards img {
-    width: 280px;
+    width: 260px;
     height: auto;
     box-sizing: border-box;
   }
