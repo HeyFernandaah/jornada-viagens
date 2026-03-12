@@ -1,0 +1,154 @@
+.destinations-items .item header {
+  display: block;
+  position: static;
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.popular-destinations {
+  width: 312px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 24px;
+  text-align: left;
+}
+
+.popular-destinations h4 {
+  font-size: 28px;
+}
+
+.item h4 {
+  margin-top: 24px;
+}
+
+.item p {
+  margin: 0 0 24px 0;
+}
+
+.item a {
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.img-item {
+  width: 312px;
+  height: 360px;
+  margin: 32px 0 auto;
+}
+
+.img-tokyo {
+  background: url(../img/Tokyo-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.img-osaka {
+  background: url(../img/Osaka-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .popular-destinations {
+    width: 100%;
+    display: flex;
+  }
+
+  .popular-destinations h4 {
+    width: 648px;
+    text-align: start;
+    margin: 0 auto;
+    margin-top: 24px;
+  }
+
+  .popular-destinations p {
+    width: 648px;
+    text-align: start;
+    margin: 0 auto;
+  }
+
+  .img-tokyo {
+    background: url(../img/Tokyo-tablet.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    width: 648px;
+  }
+
+  .img-osaka {
+    background: url(../img/Osaka-tablet.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    width: 648px;
+  }
+
+  .popular-destinations footer {
+    width: 648px;
+    margin: 0 auto;
+  }
+
+  .popular-destinations footer a {
+    margin: 16px auto 16px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .destination-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+
+  .item {
+    width: 480px;
+  }
+
+  .item h4,
+  item p {
+    width: 430px;
+  }
+
+  .item p {
+    width: 430px;
+  }
+
+  .img-osaka,
+  .img-tokyo {
+    width: 430px;
+  }
+
+  .item footer {
+    width: 430px;
+  }
+}
+
+@media screen and (min-width: 1310px) {
+  .item {
+    width: 588px;
+  }
+
+  .item h4,
+  item p {
+    width: 580px;
+  }
+
+  .item p {
+    width: 580px;
+  }
+
+  .img-osaka,
+  .img-tokyo {
+    width: 580px;
+  }
+
+  .item footer {
+    width: 580px;
+  }
+}

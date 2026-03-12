@@ -62,6 +62,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .offers {
+    width: 100%;
+  }
   .offers-cards {
     flex-direction: row;
     flex-wrap: wrap;
@@ -84,7 +87,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1310px) {
   .card {
     width: 588px;
   }
