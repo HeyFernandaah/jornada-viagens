@@ -1,0 +1,78 @@
+.payments {
+  margin-bottom: 88px;
+}
+
+.payments h3 {
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.payments p {
+  margin-bottom: 24px;
+}
+
+.image-content {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "image-bag image-passport"
+    "image-people image-people";
+}
+
+.image-bag {
+  background: url(../img/imagem-luggage-mobile.jpg) no-repeat;
+  width: 144px;
+  height: 254px;
+  grid-area: image-bag;
+  background-size: cover;
+}
+
+.image-passport {
+  background: url(../img/imagem-passport-mobile.png) no-repeat;
+  width: 144px;
+  height: 254px;
+  grid-area: image-passport;
+  background-size: cover;
+}
+
+.image-people {
+  background: url(../img/imagem-bridge-mobile.png) no-repeat;
+  width: 312px;
+  height: 182px;
+  grid-area: image-people;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .payments {
+    width: 648px;
+  }
+
+  .image-bag {
+    background: url(../img/imagem-luggage-tablet.jpg) no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 254px;
+  }
+
+  .image-passport {
+    background: url(../img/imagem-passport-tablet.jpg) no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 254px;
+  }
+
+  .image-people {
+    background: url(../img/imagem-bridge-tablet.jpg) no-repeat;
+    background-size: cover;
+    width: 648px;
+    height: 182px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (min-width: 1310px) {
+}
