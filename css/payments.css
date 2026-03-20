@@ -1,0 +1,174 @@
+.main-container-payment {
+  width: 100%;
+  height: auto;
+}
+
+.payments {
+  margin-bottom: 88px;
+}
+
+.payments h3 {
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.payments p {
+  margin-bottom: 24px;
+}
+
+.image-gallery {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "image-bag image-passport"
+    "image-people image-people";
+}
+
+.image-bag {
+  background: url(../img/imagem-luggage-mobile.jpg) no-repeat;
+  width: 144px;
+  height: 254px;
+  grid-area: image-bag;
+  background-size: cover;
+}
+
+.image-passport {
+  background: url(../img/imagem-passport-mobile.png) no-repeat;
+  width: 144px;
+  height: 254px;
+  grid-area: image-passport;
+  background-size: cover;
+}
+
+.image-people {
+  background: url(../img/imagem-bridge-mobile.png) no-repeat;
+  width: 312px;
+  height: 182px;
+  grid-area: image-people;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .payments {
+    width: 648px;
+  }
+
+  .image-bag {
+    background: url(../img/imagem-luggage-tablet.jpg) no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 254px;
+  }
+
+  .image-passport {
+    background: url(../img/imagem-passport-tablet.jpg) no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 254px;
+  }
+
+  .image-people {
+    background: url(../img/imagem-bridge-tablet.jpg) no-repeat;
+    background-size: cover;
+    width: 648px;
+    height: 182px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .payments .container-payment {
+    display: grid;
+    justify-content: center;
+    max-width: 900px;
+    grid-template-columns: 300px 1fr 1fr;
+    grid-template-areas:
+      "payment-text-area image-bag image-passport"
+      "payment-text-area image-people image-people ";
+  }
+
+  .payment-text-area {
+    grid-area: payment-text-area;
+    max-width: 320px;
+  }
+
+  .image-bag {
+    background: url(../img/imagem-luggage-tablet.jpg) no-repeat;
+    background-size: cover;
+    grid-area: image-bag;
+  }
+
+  .image-passport {
+    background: url(../img/imagem-passport-tablet.jpg) no-repeat;
+    background-size: cover;
+    grid-area: image-passport;
+  }
+
+  .image-people {
+    background: url(../img/imagem-bridge-tablet.jpg) no-repeat;
+    background-size: cover;
+    grid-area: image-people;
+  }
+}
+
+@media screen and (min-width: 1310px) {
+  .payments {
+    height: auto;
+    margin-bottom: 200px;
+  }
+  .main-container-payment {
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .payments .container-payment {
+    max-width: 100%;
+    justify-content: center;
+    grid-template-columns: 320px 1fr 1fr;
+    grid-template-areas:
+      "payment-text-area image-bag image-passport"
+      "payment-text-area image-people image-people ";
+    /* column-gap: 40px; */
+  }
+  .image-gallery {
+    width: 790px;
+    height: 190px;
+    margin-left: 90px;
+  }
+
+  .image-bag {
+    grid-area: image-bag;
+    background: url(../img/imagem-luggage-desktop.jpg);
+    width: auto;
+    background-size: cover;
+  }
+
+  .image-passport {
+    grid-area: image-passport;
+    background: url(../img/imagem-passport-desktop.png);
+    width: auto;
+    background-size: cover;
+  }
+
+  .image-people {
+    grid-area: image-people;
+    background: url(../img/imagem-brigde-desktop.jpg);
+    width: auto;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments .text-content {
+    width: 360px;
+  }
+  .payments .image-gallery {
+    width: 790px;
+  }
+}
+
+.payments .content-container {
+  display: flex;
+  justify-content: space-between;
+}
