@@ -4,7 +4,7 @@
 }
 
 .payments {
-  margin-bottom: 88px;
+  margin-bottom: 50px;
 }
 
 .payments h3 {
@@ -165,6 +165,7 @@
   }
   .payments .image-gallery {
     width: 790px;
+    margin-bottom: 16px;
   }
 }
 

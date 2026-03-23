@@ -8,10 +8,7 @@
 .hero h2 {
   padding: 88px 24px;
   margin: 0px;
-  /* font-weight: var(--text-weight);
-  font-size: 20px; */
   text-align: center;
-  /* line-height: 1.5; */
 }
 
 @media screen and (min-width: 768px) {
@@ -37,7 +34,7 @@
 
   .hero h2 {
     padding: 88px 120px;
-    font-size: 20px;
+    font-size: 28px;
   }
 }
 
