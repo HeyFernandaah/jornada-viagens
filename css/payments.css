@@ -4,7 +4,7 @@
 }
 
 .payments {
-  margin-bottom: 88px;
+  margin-bottom: 50px;
 }
 
 .payments h3 {
@@ -129,7 +129,6 @@
     grid-template-areas:
       "payment-text-area image-bag image-passport"
       "payment-text-area image-people image-people ";
-    /* column-gap: 40px; */
   }
   .image-gallery {
     width: 790px;
@@ -160,11 +159,15 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .payments {
+    padding-bottom: 80px;
+  }
   .payments .text-content {
     width: 360px;
   }
   .payments .image-gallery {
     width: 790px;
+    margin-bottom: 16px;
   }
 }
 
