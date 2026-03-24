@@ -41,8 +41,37 @@
   gap: 32px;
 }
 
+@media screen and (min-width: 768px) {
+  .testimonials {
+    width: 648px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .testimonials {
+    width: 850px;
+    margin: 0 auto;
+  }
+
+  .testimonials-container article header {
+    width: 850px;
+    padding: 0;
+  }
+}
+
 @media screen and (min-width: 1440px) {
+  .testimonials {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+  }
+
   .testimonials-container {
     flex-direction: row;
+  }
+
+  .testimonials-container article header {
+    width: 384px;
+    padding: 0;
   }
 }
