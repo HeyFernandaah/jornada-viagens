@@ -87,49 +87,6 @@ section.hero {
   line-height: 64px;
 }
 
-.container-footer {
-  background-color: var(--background-tertiary-color);
-  color: var(--backgound-secondary-color);
-  width: 100%;
-  height: 348px;
-  padding: 32px 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-  line-height: 28px;
-  text-align: center;
-}
-
-.container-footer .logo-footer {
-  width: 161px;
-  height: 40px;
-}
-
-.footer-redes-container {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.footer-redes {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-}
-
-.footer-redes a {
-  display: inline-flex;
-}
-
-.footer-redes .footer-redes-icon {
-  width: 32px;
-  height: 32px;
-  display: block;
-}
-
 @media screen and (min-width: 768px) {
   section {
     margin: 0 auto;
