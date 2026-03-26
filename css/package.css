@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pacote-hero {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.section-title-pacotes {
+  font-size: 48px;
+  font-weight: var(--titles-weight);
+
+  color: var(--text-secondary-color);
+  text-align: center;
+  width: 312px;
+  text-align: left;
+}
+
+.divisor-pacotes {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 20px 0;
+  align-self: flex-start;
+}

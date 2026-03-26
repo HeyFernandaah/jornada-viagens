@@ -21,6 +21,32 @@
   background-position: center;
 }
 
+.hero-pacotes-de-viagem {
+  background: url(../img/hero-pacotes-de-viagem.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 420px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  color: var(--text-secondary-color);
+}
+
+.hero-pacotes-de-viagem h1 {
+  margin-bottom: 0;
+}
+
+.pacote-hero p {
+  width: 312px;
+  height: 160px;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;

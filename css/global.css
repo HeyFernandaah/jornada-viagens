@@ -55,7 +55,7 @@ section.hero {
   text-align: center;
 }
 
-.section-title hr {
+.divisor {
   width: 180px;
   height: 4px;
   background-color: var(--secondary-color);
