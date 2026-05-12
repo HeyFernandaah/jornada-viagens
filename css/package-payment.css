@@ -1,0 +1,77 @@
+.pacotes-payment-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+}
+
+.pacotes-payment-area-container h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: var(--titles-weight);
+}
+
+.pacotes-payment-area, h3, h4, p  {
+  text-align: start;
+  row-gap: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: var(--text-weight);
+}
+
+.pacotes-payment-area h3 {
+  font-weight: var(--titles-weight);
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.pacotes-payment-area h4 {
+font-weight: var(--titles-weight);
+font-style: Bold;
+font-size: 21px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+}
+
+.pacotes-payment-area, footer { 
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.payment-area-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "img-1 img-2"
+    "img-3 img-3";
+  gap: 20px;
+}
+
+.payment-area-image-one {
+  background: url(../img/image-templo-japones-tablet.jpg) no-repeat;
+  background-size: cover;
+    width: 148px;
+    height:148px;
+  grid-area: img-1;
+}
+
+.payment-area-image-two {
+   background: url(../img/imagem-placas-japonesas-tablet.jpg) no-repeat;
+  background-size: cover;
+    width: 148px;
+    height:148px;
+  grid-area: img-2;
+}
+
+.payment-area-image-three {
+  background: url(../img/imagem-corredor-japones-tablet.png) no-repeat;
+  background-size: cover;
+    width: 314px;
+    height:145px;
+ grid-area: img-3;
+}
