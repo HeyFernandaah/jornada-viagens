@@ -78,6 +78,15 @@
     width: 850px;
     padding: 0;
   }
+
+  .packages-testimonials {
+    width: 850px;
+  }
+
+  .packages-testimonials-container article header {
+    width: 800px;
+    padding: 0;
+  }
 }
 
 @media screen and (min-width: 1440px) {

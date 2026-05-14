@@ -42,10 +42,27 @@
   display: block;
 }
 
+.packages-footer-img {
+  background: url(../img/packages-footer-img-moblie-2.jpg) no-repeat;
+  background-size:center;
+  width: 100%;
+  height: 200px;
+  margin-top: 10%;
+}
+
+
 @media screen and (min-width: 1024px) {
   .container-footer p {
     font-size: 20px;
   }
+
+  .packages-footer-img {
+  background: url(../img/packages-footer-img-main.jpg) no-repeat;
+  background-size:cover;
+  width: 100%;
+  height: 400px;
+  margin-top: 10%;
+}
 }
 
 @media screen and (min-width: 1310px) {

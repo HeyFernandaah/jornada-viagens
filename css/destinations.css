@@ -116,6 +116,11 @@
     justify-content: center;
     margin: 0 auto;
   }
+
+    .purchase-destinations article .button {
+    margin-bottom: 20px ;
+  }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -147,6 +152,12 @@
 }
 
 @media screen and (min-width: 1310px) {
+.purchase-destinations,
+  .destinations-items {
+    width: 100%;
+    max-width: 1310px;
+  }
+
   .item {
     width: 588px;
   }
