@@ -1,0 +1,33 @@
+.alike-posts {
+  width: 312px;
+  gap: 32px;
+  margin-top: 80px;
+}
+
+.blog-img-osaka {
+    background: url(../img/Osaka-mobile.jpg) no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 300px;
+    margin: 30px 0;
+}
+
+.blog-img-hiroshima {
+    background: url(../img/img-hiroshima.jpg) no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 300px;
+    margin: 30px 0;
+}
+
+.blog-img-kyoto {
+    background: url(../img/img-kyoto.jpg) no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 300px;
+    margin: 30px 0;
+}
+
+.alike-posts .button{
+    margin-top: 30px;
+}
