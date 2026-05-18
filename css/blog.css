@@ -59,15 +59,57 @@ margin-top: 20px;
 
 
 @media screen and (min-width: 768px) {
-  .blog-tokyo, article:first-child {
+.blog-tokyo {
+  width: 648px;
+}
+
+  .blog-tokyo .blog-article-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .blog-tokyo .blog-article-one div {
+    width: 320px;
+  }
+
+  .blog-article-two .blog-tokyo-img-two {
+    width: 648px;
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .blog-hero-image {
     background: url(../img/blog-hero.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     height: 420px;
+  }
+
+  .blog-tokyo {
+  width: 882px;
+}
+
+  .blog-tokyo .blog-article-one div {
+    width: 420px;
+  }
+
+  .blog-article-two .blog-tokyo-img-two {
+    width: 882px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .blog-tokyo {
+  width: 1200px;
+}
+
+  .blog-tokyo .blog-article-one div {
+    width: 580px;
+  }
+
+  .blog-article-two .blog-tokyo-img-two {
+    width: 1200px;
+    background-position: 50%;
   }
 }
