@@ -68,6 +68,16 @@ margin-top: 20px;
   width: 648px;
 }
 
+.blog-hero-txt {
+  text-align: left;
+  width: 70%;
+  margin-left: 8%;
+}
+
+.blog-hero-txt .divisor{
+  margin: 20px 0;
+}
+
   .blog-tokyo .blog-article-one {
     display: flex;
     flex-direction: row;
@@ -84,6 +94,10 @@ margin-top: 20px;
 }
 
 @media screen and (min-width: 1024px) {
+.blog-hero-txt {
+  width: 35%;
+}
+
   .blog-hero-image {
     background: url(../img/blog-hero.jpg) no-repeat;
     background-size: cover;
@@ -105,6 +119,10 @@ margin-top: 20px;
 }
 
 @media screen and (min-width: 1440px) {
+.blog-hero-txt {
+  width: 30%;
+}
+
   .blog-tokyo {
   width: 1200px;
 }

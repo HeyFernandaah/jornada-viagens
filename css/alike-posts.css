@@ -63,20 +63,61 @@
 
 @media screen and (min-width: 1024px) {
 .alike-posts{
-    width: 992px;
-    flex-direction: column;
-    justify-content:flex-start;
+    max-width: 900px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "alike-posts-title alike-posts-title alike-posts-title"
+    "alike-post-one alike-post-two alike-post-three";
 }
 
+.alike-posts-title {
+    grid-area:alike-posts-title;
+    text-align: center;
+    margin-bottom: 0px;
+}
 
-    .alike-posts article header {
-        width: 330px;
-    } 
+.alike-post-one {
+    grid-area: alike-post-one;
+}
 
-   .blog-img-hiroshima,
+.alike-post-two {
+    grid-area: alike-post-two;
+}
+
+.alike-post-three {
+    grid-area: alike-post-three;
+}
+
+ .alike-posts article {
+    max-width: 280px;
+    width: 100%;
+}
+
+.alike-posts header {
+    padding: 0px;
+}
+
+.blog-img-hiroshima,
     .blog-img-kyoto,
      .blog-img-osaka {
-        width: 330px;
-     }
+        max-width: 280px;
+        width: 100%;
+         margin-top: 0%;
+     } 
+}
 
+@media screen and (min-width: 1024px) {
+.alike-posts{
+    max-width: 1200px;
+    width: 100%;
+}
+
+.alike-posts article, .alike-posts .blog-img-hiroshima,
+    .blog-img-kyoto,
+     .blog-img-osaka  {
+    max-width: 350px;
+    width: 100%;
+}
 }
